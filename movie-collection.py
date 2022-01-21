@@ -50,7 +50,8 @@ else:
         for year in movie_collection[year]:
             print('%s, %s' % (year[0], year[1]))
     else:
-        print('%s, %s' % (movie_collection[year][0], movie_collection[year][1]))
+        print('%s, %s' %
+              (movie_collection[year][0], movie_collection[year][1]))
     print()
 
 # Display menu
@@ -75,7 +76,8 @@ while menu_option != 'q':
                     print('\t%s, %s' % (year[0], year[1]))
                 print()
             else:
-                print('\t%s, %s' % (movie_collection[year][0], movie_collection[year][1]))
+                print('\t%s, %s' %
+                      (movie_collection[year][0], movie_collection[year][1]))
                 print()
         continue
     # display movies by director, display movies by movie title, or quit
